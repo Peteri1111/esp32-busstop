@@ -1,0 +1,10 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+const char* busStopRequest = "https://data.itsfactory.fi/journeys/api/1/stop-monitoring?stops=2000,2001";
+const char* journeysRequest = "https://data.itsfactory.fi/journeys/api/1/journeys";
+const char* timeRequest = "http://worldtimeapi.org/api/timezone/Europe/Helsinki";
+const char* ssid = "WIFI SSID";
+const char* password = "PASSWORD";
+
+#endif
